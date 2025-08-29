@@ -1,0 +1,50 @@
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+.cartText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cartText p{
+    margin-top: 12px;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.cartText .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.cartText .back{
+    width: 140px;
+    height: 40px;
+    background-color:rgb(4, 81, 81);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    margin-top: 22px;
+}
+@keyframes fadeInShop {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+body, .section-header, .products-container, .product-card {
+  animation: fadeInShop 1.2s;
+}
+.product-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
